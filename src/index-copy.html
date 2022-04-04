@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form">
+        <div>
+            <label for="firstName">Full name</label>
+            <input
+                    type="text"
+                    id="firstName"
+                    placeholder="Write your name here"
+                    class="input"
+                    minlength="2"
+                    required="required"
+            />
+        </div>
+
+        <div>
+            <input type="checkbox">
+        </div>
+        <div>
+            <label>
+                <input type="radio" name="gender" id="male" value="male">
+                <span>Male</span>
+            </label>
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <select required>
+            <option disabled selected>
+                Select animal
+            </option>
+            <option value="">
+                Cat
+            </option>
+            <option value="">
+                Dog
+            </option>
+            <option value="">
+                Duck
+            </option>
+        </select>
+        <button>
+            Submit
+        </button>
+    </form>
+</body>
+</html>
